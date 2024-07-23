@@ -28,14 +28,3 @@ VALUES
 ('Ethan', 'Harris', 'Mathematics, Physics', 'B.Sc. in Mathematics', 'Weekdays 6-9 PM', 'Arizona', 19.00, 'ethan.harris@example.com'),
 ('Michael', 'Johnson', 'English, History', 'M.A. in History', 'Weekends 10 AM - 2 PM', 'California', 25.00, 'michael.johnson@example.com');
 
-
-INSERT INTO Scholarships (Name, EligibilityCriteria, ApplicationDeadline, Amount, ContactInfo)
-VALUES
-('Academic Excellence Scholarship', 'Low income, high GPA', '2024-08-01', 5000.00, 'scholarship@example.com'),
-('Diversity in STEM Scholarship', 'Minority students in STEM fields', '2024-09-01', 3000.00, 'stem.scholarship@example.com');
-
-
-INSERT INTO Resources (Name, URL, Category, Description)
-VALUES
-('Khan Academy', 'https://www.khanacademy.org', 'Educational', 'Free online courses and practice exercises'),
-('Mental Health America', 'https://www.mhanational.org', 'Mental Health', 'Resources for mental health support and advocacy');
