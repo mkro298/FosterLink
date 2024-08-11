@@ -1,0 +1,4 @@
+pyodbc
+flask
+flask_cors
+gunicorn

@@ -1,0 +1,27 @@
+.scholarship-cards {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  height: 230px;
+}
+
+.scholarship-cards h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.scholarship-cards p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.scholarship-cardr .image {
+  height: 100px;
+  justify-content: c;
+  margin-bottom: 30px;
+}

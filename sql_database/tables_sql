@@ -1,0 +1,53 @@
+CREATE TABLE Students (
+    Email VARCHAR(255) PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    PasswordHash CHAR(64)
+);
+
+CREATE TABLE Mentors (
+    Email VARCHAR(255) PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Subjects VARCHAR(255),
+    Availability VARCHAR(100),
+    HourlyRate VARCHAR(50),
+    PasswordHash CHAR(64)
+);
+
+CREATE TABLE Posts (
+    id VARCHAR(255) PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    date VARCHAR(50) NOT NULL,
+    upvotes INT DEFAULT 0,
+    downvotes INT DEFAULT 0,
+    posted_file VARCHAR(255),
+    Email VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE Replies (
+    reply_id INT IDENTITY(1,1) PRIMARY KEY,
+    replied_topost_id VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    date VARCHAR(50) NOT NULL,
+    upvotes INT DEFAULT 0,
+    downvotes INT DEFAULT 0,
+    posted_file VARCHAR(255),
+    Email VARCHAR(255) NOT NULL,
+    FOREIGN KEY (replied_topost_id) REFERENCES Posts(id),
+    FOREIGN KEY (Email) REFERENCES Students(Email)
+);
+
+CREATE TABLE All_Votes (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    Email VARCHAR(255) NOT NULL,
+    PostID VARCHAR(255) NOT NULL,
+    vote_type VARCHAR(10) CHECK (vote_type IN ('upvote', 'downvote')),
+    FOREIGN KEY (Email) REFERENCES Students(Email),
+    FOREIGN KEY (PostID) REFERENCES Posts(id)
+);
+

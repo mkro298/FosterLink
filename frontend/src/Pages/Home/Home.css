@@ -1,0 +1,172 @@
+.home {
+  line-height: 1.6;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #008cff;
+}
+
+.hero {
+  padding: 50px;
+  background: url('./FrontPage-new.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.hero-text {
+  position: absolute;
+  left: 30%;
+  top: 150px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.demo-button {
+  background-color: #008cff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.demo-button:hover {
+  background-color: #006bb3;
+}
+
+.home-intro,
+.home-about,
+.home-Contact {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+}
+
+.home-intro h2,
+.home-about h2,
+.home-Contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.home-intro p,
+.home-about p,
+.home-Contact p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.home-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  font-size: 1em;
+  color: #666;
+}
+.home-intro h2 {
+  text-align: center;
+}
+.home-intro {
+  border-bottom: #333;
+  text-align: center;
+}
+
+.home-about h2 {
+  text-align: center;
+}
+
+.home-about {
+  border-bottom: #333;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.services {
+  margin-top: 30px;
+}
+.home-about {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.who_pic img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+}
+
+.home-Contact,
+.home-Contact ul {
+  text-align: center;
+}
+
+.transparent_logo {
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+  height: 14rem;
+  object-fit: contain;
+}
+
+.text-below-logo {
+  text-align: center;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "Emily Brown",
+    "Image": "/Assets/Mentors/emily.jpg",
+    "Subjects": ["Math", "Science"],
+    "Availability": "Weekdays 4-7 PM",
+    "Hourly Rate": "$20",
+    "Mentor (free)": false,
+    "Contact Info": "emily.brown@gmail.com"
+  },
+  {
+    "Name": "Sophia Martinez",
+    "Image": "/Assets/Mentors/sophia.jpg",
+    "Subjects": ["Physics", "Chemistry"],
+    "Availability": "Weekdays 2-5 PM",
+    "Hourly Rate": "$18",
+    "Mentor (free)": false,
+    "Contact Info": "sophia.martinez@gmail.com"
+  },
+  {
+    "Name": "Daniel Garcia",
+    "Image": "/Assets/Mentors/daniel.jpg",
+    "Subjects": ["Biology", "Environmental Science"],
+    "Availability": "Weekdays 1-3 PM",
+    "Hourly Rate": "free",
+    "Mentor (free)": true,
+    "Contact Info": "daniel.garcia@gmail.com"
+  },
+  {
+    "Name": "Olivia Davis",
+    "Image": "/Assets/Mentors/olivia.jpg",
+    "Subjects": ["Economics", "Photography"],
+    "Availability": "Weekdays 4-7 PM",
+    "Hourly Rate": "$16",
+    "Mentor (free)": false,
+    "Contact Info": "olivia.davis@gmail.com"
+  },
+  {
+    "Name": "James Wilson",
+    "Image": "/Assets/Mentors/james.jpg",
+    "Subjects": ["Computer Science", "Programming"],
+    "Availability": "Weekends 2-7 PM",
+    "Hourly Rate": "$20",
+    "Mentor (free)": false,
+    "Contact Info": "james.wilson@gmail.com"
+  },
+  {
+    "Name": "Mia Clark",
+    "Image": "/Assets/Mentors/mia.jpg",
+    "Subjects": ["French", "Spanish"],
+    "Availability": "Weekdays 1-4 PM",
+    "Hourly Rate": "free",
+    "Mentor (free)": true,
+    "Contact Info": "mia.clark23@gmail.com"
+  },
+  {
+    "Name": "William Lee",
+    "Image": "/Assets/Mentors/william.jpg",
+    "Subjects": ["Geography", "History"],
+    "Availability": "Weekdays 5-7 PM",
+    "Hourly Rate": "$19",
+    "Mentor (free)": false,
+    "Contact Info": "william.lee@gmail.com"
+  },  
+  {
+    "Name": "Emma Lopez",
+    "Image": "/Assets/Mentors/emma.jpg",
+    "Subjects": ["Art", "Music", "Fine Arts"],
+    "Availability": "Weekdays 10-12 PM",
+    "Hourly Rate": "free",
+    "Mentor (free)": true,
+    "Contact Info": "emma.lopez12@gmail.com"
+  },
+  {
+    "Name": "Ava Taylor",
+    "Image": "/Assets/Mentors/ava.jpg",
+    "Subjects": ["Mathematics", "Physics"],
+    "Availability": "Weekdays 4-7 PM",
+    "Hourly Rate": "free",
+    "Mentor (free)": true,
+    "Contact Info": "ava.taylor@gmail.com"
+  },
+  {
+    "Name": "Ethan Harris",
+    "Image": "/Assets/Mentors/ethan.png",
+    "Subjects": ["English", "Acting"],
+    "Availability": "Weekends 9-11 AM",
+    "Hourly Rate": "$18",
+    "Mentor (free)": false,
+    "Contact Info": "ethan.harris@gmail.com"
+  },
+  {
+    "Name": "Michael Johnson",
+    "Image": "/Assets/Mentors/michael.png",
+    "Subjects": ["Communication", "Business"],
+    "Availability": "Weekends 1-4 PM",
+    "Hourly Rate": "$20",
+    "Mentor (free)": false,
+    "Contact Info": "michael.johnson@gmail.com"
+  },
+  {
+    "Name": "Anand Burugapali",
+    "Image": "/Assets/Mentors/anand.jpg",
+    "Subjects": ["Coding", "Cybersecurity"],
+    "Availability": "Weekdays 5-7 PM",
+    "Hourly Rate": "free",
+    "Mentor (free)": true,
+    "Contact Info": "anand.buru@gmail.com"
+  }
+]

@@ -1,0 +1,94 @@
+.scholarship-page {
+  background-color: #fce2d6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.scholarship-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scholarship-title {
+    text-align: center;
+  margin: 40px 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.scholarship-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.scholarship-card-item {
+  display: flex;
+  height: 250px; /* Set a fixed height for all cards */
+}
+
+.scholarship-card-item a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.scholarship-card-item .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.scholarship-card-item .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.scholarship-card-item .card-title {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.scholarship-card-item .card-text {
+  flex-grow: 1;
+  overflow: auto;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.scholarship-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  font-size: 1.2em;
+  color: #666;
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 1200px) {
+  .scholarship-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .scholarship-card-container {
+    grid-template-columns: 1fr;
+  }
+}

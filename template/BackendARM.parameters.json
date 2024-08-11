@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "2bd94ec0-b962-4bad-84a8-7900bb20b520"
+        },
+        "resourceGroupName": {
+            "value": "TeamF_intern"
+        },
+        "name": {
+            "value": "fosterlinkbackendapp"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-TeamFintern-bc7d"
+        },
+        "serverFarmResourceGroup": {
+            "value": "TeamF_intern"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "PYTHON|3.9"
+        }
+    }
+}

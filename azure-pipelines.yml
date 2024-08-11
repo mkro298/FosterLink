@@ -1,0 +1,21 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: ARMTemplateDeployment
+  steps:
+  - task: AzureResourceManagerTemplateDeployment@3
+    inputs:
+      deploymentScope: 'Resource Group'
+      azureResourceManagerConnection: 'ARMPipelineConnection'
+      subscriptionId: '2bd94ec0-b962-4bad-84a8-7900bb20b520'
+      action: 'Create Or Update Resource Group'
+      resourceGroupName: 'TeamF_intern'
+      location: 'East US'
+      templateLocation: 'URL of the file'
+      csmFileLink: 'https://dev.azure.com/i-meghanak/_git/FosterLink?path=/template/ARMtemp.json&version=GBmain'
+      deploymentMode: 'Incremental'
+

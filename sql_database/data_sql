@@ -1,0 +1,40 @@
+INSERT INTO Students (Email, FirstName, LastName, PasswordHash)
+VALUES
+('john.doe@gmail.com', 'John', 'Doe', '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd01c56e0f6dbbb3c0e'),
+('alice.johnson@gmail.com', 'Alice', 'Johnson', '6c1c1c9e104fddf7b07e02fa2e4f750a9a7b993939ae8509be9b7baf0f43ffb7'),
+('bob.brown@hotmail.com', 'Bob', 'Brown', 'e2fc714c4727ee9395f324cd2e7f331f2d8fd64afddf0f495b4f48c6e5d7e808'),
+('charlie.davis@gmail.com', 'Charlie', 'Davis', '09c8e1357b8f218ac0ff86a0c2f6edc623d4d065b06a51fc7e7b73de6352edc6'),
+('emily.martinez@hotmail.com', 'Emily', 'Martinez', '6dcd4ce23d88e2ee9568ba546c007c63b2e616e58a3289e2a6e238b4b060f2b8'),
+('david.garcia@gmail.com', 'David', 'Garcia', '7c222fb2927d828af22f592134e8932480637c0d1c6e7e813b446c537149b2cd'),
+('sophia.rodriguez@gmail.com', 'Sophia', 'Rodriguez', 'eb6efbc8f34c4014649843b093065cdd4a1c43a982d1e9ff8a50728e385b1353'),
+('michael.hernandez@gmail.com', 'Michael', 'Hernandez', '4a44dc15364204a80fe80e9039455cc1b7251c7a4e438be4b09db5e1bdb7f564'),
+('olivia.scott@gmail.com', 'Olivia', 'Scott', '6b23c0d5bbc5ff9ed16b42ca946a3fe26ab00c7f77d4e6da42af93b8d41a7c7d'),
+('james.lopez@gmail.com', 'James', 'Lopez', '2e7d2c03a9507ae265ecf5b5356885a53393a7e5a4201a97c4ea34b749e501f7'),
+('jane.smith@gmail.com', 'Jane', 'Smith', '8e959b75dae313da8cf4f72814fc143d6f3f2e47f4a3b0036a3f0869d32d61c4');
+
+INSERT INTO Mentors (Email, FirstName, LastName, Subjects, Availability, HourlyRate, PasswordHash)
+VALUES
+('emily.brown@gmail.com', 'Emily', 'Brown', 'Math, Science', 'Weekdays 4-7 PM', '$20', '9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08'),
+('sophia.martinez@gmail.com', 'Sophia', 'Martinez', 'Physics, Chemistry', 'Weekdays 2-5 PM', '$18', 'e3be9a9c2f3e7a6f4b7d6f9fb1ebf0e7b9374f1d68f4d853e3d0cf1ebd8f6e2f'),
+('daniel.garcia@gmail.com', 'Daniel', 'Garcia', 'Biology, Environmental Science', 'Weekdays 1-3 PM', 'free', 'bf4c3bb9a1a7d4f4f89b5e3b8e2b0c8d6e8f4f1e3b2c4d9f0b7a4c8d6f3b1e2f'),
+('olivia.davis@gmail.com', 'Olivia', 'Davis', 'Economics, Photography', 'Weekdays 4-7 PM', '$16', 'aedf4b9e3d7a6f4b7d6e2f8b4c3f1b2c9d8f4e3b7a4c1d9f0e6f3b8d2e7c5a4f'),
+('james.wilson@gmail.com', 'James', 'Wilson', 'Computer Science, Programming', 'Weekends 2-7 PM', '$20', 'b7c9d8e3a7f4e2b6d4c1f9f3b5e2a7d6e8f4c3d1b6a2f9e3b7c4d9f8e6b2a1c4'),
+('emma.lopez12@gmail.com', 'Emma', 'Lopez', 'Art, Music, Fine Arts', 'Weekdays 10-12 PM', 'free', 'e9c3d7f8b2e4a7f6d1c9b8e3a7f2d6b4c1d3e8f7b6a9f4c3d2b7e6a1f9e4b3d8'),
+('benjamin.anderson@gmail.com', 'Benjamin', 'Anderson', 'Philosophy, Sociology', 'Weekends 4-6 PM', '$23', 'd3f8c4b7a9e6f2b4d1e8c7b5a2d9f4e3b7a6f8d2c9b1e7f3c5d4e9b2f1a8e6f4'),
+('mia.clark23@gmail.com', 'Mia', 'Clark', 'French, Spanish', 'Weekdays 1-4 PM', 'free', 'c9b6e7f4d2a8f1b5e3c8f9d4b2e1a7c6f3d9e2b4f7c5a1e6b3d8f2a4e9f1c7b8'),
+('william.lee@gmail.com', 'William', 'Lee', 'Geography, History', 'Weekdays 5-7 PM', '$19', 'a7f4d9e3b2f1a6c8f2b7d4e8c1f3b5d2a9e7c4f1b6e3d8f9a2c7b4e6f1d3a8c5'),
+('ava.taylor@gmail.com', 'Ava', 'Taylor', 'Mathematics, Physics', 'Weekdays 4-7 PM', 'free', 'e1b6f3a9c4d7f2b1a8e4c7b5f1d2a6e3b9f8c1d4f7b2e6a3c9f5b1e2d8a4f9c7'),
+('ethan.harris@gmail.com', 'Ethan', 'Harris', 'English, Acting', 'Weekends 9-11 AM', '$18', 'e9c0d6f7558f2f8d8b6c4d9e7f3a4b1a6d8e9f2b3c5f1e7a2b4d3c6e8f9b1a7'),
+('michael.johnson@gmail.com', 'Michael', 'Johnson', 'Communication, Business', 'Weekends 1-4 PM', '$20', 'a8d3c7b4e1f6a2c5e9b8d7f4b2c1e3a7f6d9b5c8a1e4b3f2c6e7d8f9b1a5c4'),
+('anand.buru@gmail.com', 'Anand', 'Burugapali', 'Coding, Cybersecurity', 'Weekdays 5-7 PM', 'free', 'f3b8d4c1a9e7b2f6d1c3a8e5f4b9d6e2c7b1a3f5c8d9e6b3a2f1c7e4b5d8a9');
+
+INSERT INTO Posts (id, username, title, content, date, upvotes, downvotes, posted_file, Email)
+VALUES 
+    ('162789324012345', 'John_Doe', 'First Post', 'This is the content of the first post.', 'Just now', 10, 2, 'file1.txt', 'john.doe@gmail.com'),
+    ('162789324012346', 'Alice_Johnson', 'Second Post', 'This is the content of the second post.', 'Just now', 5, 0, 'file2.txt', 'alice.johnson@gmail.com');
+
+INSERT INTO Replies (reply_id, replied_topost_id, username, content, date, upvotes, downvotes, posted_file, Email)
+VALUES 
+    ('1', '162789324012345', 'John_Doe', 'This is a reply to the first post.', 'Just now', 3, 0, 'replyFile1.txt', 'john.doe@gmail.com'),
+    ('2', '162789324012345', 'John_Doe', 'This is another reply to the first post.', 'Just now', 2, 1, 'replyFile2.txt', 'john.doe@gmail.com'),
+    ('3', '162789324012346', 'Alice_Johnson', 'This is a reply to the second post.', 'Just now', 1, 0, 'replyFile3.txt', 'alice.johnson@gmail.com');
